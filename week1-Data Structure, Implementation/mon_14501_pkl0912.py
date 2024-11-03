@@ -1,6 +1,6 @@
 n = int(input())
-TP = [(0, 0)]  # 초기값 추가
-dp = [0] * (n + 1)  # n+1 크기로 dp 초기화
+TP = [(0, 0)]  
+dp = [0] * (n + 1) 
 
 for _ in range(n):
     t, p = map(int, input().split())
